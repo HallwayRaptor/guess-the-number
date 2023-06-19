@@ -183,7 +183,7 @@ const GameFormArea = ({
 };
 const GameMessage = ({ message, guessCount, gameOver }) => (
 	<div>
-		<p> {guessCount === 0 ? "" : `Guesses ${guessCount}`} </p>
-		<p>{message}</p>
+		<p>{guessCount === 0 ? "" : `Guesses ${guessCount}`}</p>
+		<p>{guessCount === 69 ? "Nice" : message}</p>
 	</div>
 );
